@@ -1,0 +1,22 @@
+name: Share an idea
+description: Start a conversation about something Reasonally could do better.
+title: "[Idea] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: "Ideas can be early or exploratory. Share the context that would help us understand yours."
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Why would this be useful?
+      description: Tell us about the experience or workflow that inspired it.
+    validations:
+      required: true
+
